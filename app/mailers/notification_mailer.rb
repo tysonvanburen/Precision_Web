@@ -1,5 +1,5 @@
 class NotificationMailer < ActionMailer::Base
-  default from: "no-reply@fathomless-reaches-8522.herokuapp.com.com"
+  default from: "no-reply@fathomless-reaches-8522.herokuapp.com"
 
   def apply_form(params)
     @params = params

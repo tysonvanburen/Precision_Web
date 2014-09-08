@@ -85,8 +85,8 @@ Rails.application.configure do
     address:                    'smtp.mandrillapp.com',
     port:                       587,
     domain:                     'fathomless-reaches-8522.herokuapp.com',
-    user_name:                  ENV['MANDRILL_USERNAME'],
-    password:                   ENV['MANDRILL_PASSWORD'],
+    user_name:                  ENV['app29341049@heroku.com'],
+    password:                   ENV['ulIzh-DnFNjJA-5Xu5V23g'],
     authentication:             'plain',
     enable_srarttls_auto:       true
   }
