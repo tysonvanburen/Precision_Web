@@ -1,4 +1,4 @@
-ActionMailer::Base.delivery_method = :sendmail
+# ActionMailer::Base.delivery_method = :sendmail
 
 # Load the Rails application.
 require File.expand_path('../application', __FILE__)
