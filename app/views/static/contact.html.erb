@@ -1,0 +1,35 @@
+<!-- <div class="contact_form">
+  <h1>Dudes Name</h1>
+  <table class="table table-hover">
+    <tr>
+      <td class="lable">Email</td>
+      <td class="contact">Kris@PrecisionAirManagement.com</td>
+    </tr>
+    <tr>
+      <td class="lable">Phone</td>
+      <td class="contact">801-367-8604 | 801-360-1848</td>
+    </tr>
+    <tr>
+      <td class="lable">Address</td>
+      <td class="contact">Lehi Utah 84043</td>
+    </tr>
+  </table>
+</div> -->
+<h1>Contact Page</h1>
+<%= form_tag(contact_path) do %>
+  <p>
+    <%= label_tag(:user_email) %><br />
+    <%= text_field_tag(:user_email) %>
+  </p>
+  <p>
+    <%= label_tag(:in_regard_to) %><br />
+    <%= text_field_tag(:in_regard_to) %>
+  </p>
+  <p>
+    <%= label_tag(:content) %><br />
+    <%= text_area_tag(:content) %>
+  </p>
+  <p>
+    <%= submit_tag('Send Contact') %>
+  </p>
+<% end %>

@@ -1,0 +1,262 @@
+@import "bootstrap";
+
+//// layouts ////
+
+div.container {
+  box-shadow: 0px 0px 20px lightblue;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  background-image: url("background_img.jpg");
+}
+
+div.container a img {
+  max-width: 100%;
+}
+
+div.container-fluid {
+  background: lightblue;
+}
+
+ul.nav.navbar-nav li a {
+  font-size: 25px;
+  color: white;
+}
+
+  ul.nav.navbar-nav li a:hover {
+    color: black;
+  }
+
+#bs-example-navbar-collapse-1 ul li ul li a {
+  color: white;
+}
+  #bs-example-navbar-collapse-1 ul li ul li a:hover {
+    color: black;
+  }
+
+ul.dropdown-menu li {
+  background: gray;
+}
+
+
+//// All Pages ////
+
+
+
+//// static/home ////
+
+h1.first_intro {
+  text-align: center;
+  color: rgba(225, 85, 87, 0.9);
+
+}
+
+h1.intro {
+  text-align: center;
+  color: rgba(225, 85, 87, 0.9);
+
+}
+
+p.home {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 35px;
+  color: white;
+}
+
+ul.offers {
+  margin-left: 111px;
+  padding-bottom: 30px;
+  color: lightblue;
+}
+
+ul.offers li {
+  padding: 10px;
+  font-size: 25px;
+}
+
+ul.morals {
+  list-style: none;
+  color: white;
+}
+
+//// Job Info ////
+
+h1.job_description {
+  text-align: center;
+  padding-bottom: 16px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+h1.job_info {
+  text-align: center;
+  padding-bottom: 25px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+h3.ready_to_test {
+  text-align: center;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+div.playa p {
+  line-height: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+}
+
+p.job_qualifications {
+  text-align: center;
+  line-height: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+}
+
+div.work_img a img {
+  margin-left: 76px;
+  margin-bottom: 100px;
+  border-radius: 7px;
+  box-shadow: 0px 6px 29px gray;
+}
+
+a.btn.btn-success {
+  width: 200px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 204px;
+  padding-top: 10px;
+  font-size: 23px;
+}
+
+//// Contact Page ////
+
+div.contact_form h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(225, 85, 87, 0.9);
+
+}
+
+div.contact_form {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+td.lable {
+  font-size: 24px;
+  color: lightblue;
+
+}
+
+td.contact {
+  font-size: 17px;
+  color: white;
+
+}
+
+
+//// Apply Page ////
+
+form.application {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+form.application h3 {
+  padding-bottom: 10px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+h3.pi {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+div.resume {
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px;
+  width: 210px;
+}
+
+div.resume label {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+div.resume input#resume_submit_button {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+input.form-control {
+  font-size: 20px;
+}
+
+input.btn.btn-success {
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+input.btn.btn-warning {
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+a.btn.btn-info {
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+//// Test Page ////
+
+div.test h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+p.quiz_p {
+  font-size: 26px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+}
+
+form.application h4.test {
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgba(225, 85, 87, 0.9);
+}
+
+form.application p {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
+
+form.quiz_form p {
+  font-size: 17px;
+  line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 140px;
+  color: white;
+}
