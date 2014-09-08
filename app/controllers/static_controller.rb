@@ -1,28 +1,32 @@
 class StaticController < ApplicationController
-  def home
-  end
-
-  def contact
+  def apply
     if request.post?
-      NotificationMailer.contact_form(params).deliver
-      redirect_to root_path
+      NotificationMailer.apply_form(params).deliver
+      redirect_to test_path
     end
   end
 
-  def promotional_offers
+  def contact
   end
 
-  def
-
-  def apply
+  def home
 
   end
 
   def job_info
+  end
+
+  def
+
+
+  def promotional_offers
 
   end
 
   def test
-
+    if request.post?
+      TestMailer.test_form(params).deliver
+      redirect_to root_path
+    end
   end
 end

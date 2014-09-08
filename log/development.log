@@ -76569,3 +76569,2982 @@ Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 
 
 
 Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 20:41:03 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (4.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 411ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 20:41:06 -0600
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:46:17 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 23ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), :class => "form-control" );@...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (72.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:46:17 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), :class => "form-control" );@...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:48:21 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 15ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:22: syntax error, unexpected ',', expecting ')'
+...=( text_field_tag(:user_email), );@output_buffer.safe_append...
+...                               ^
+C:/dev/Precision_Web/app/views/static/contact.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+C:/dev/Precision_Web/app/views/static/contact.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+C:/dev/Precision_Web/app/views/static/contact.html.erb:39: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/static/contact.html.erb:22: syntax error, unexpected ',', expecting ')'
+  app/views/static/contact.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+  app/views/static/contact.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/static/contact.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 20:48:47 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 20:48:48 -0600
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:49:31 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), :class => "form-contorl" );@...
+...                               ^
+C:/dev/Precision_Web/app/views/static/contact.html.erb:22: syntax error, unexpected ',', expecting ')'
+...=( text_field_tag(:user_email), :class => "form-control" );@...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+  app/views/static/contact.html.erb:22: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:51:49 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), class => "form-contorl" );@o...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:52:06 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), class = "form-contorl" );@ou...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:52:11 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), class = "form-contorl" );@ou...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:52:56 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 13ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+...ppend=( label_tag(:user_email), class="form-controler" );@ou...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 20:54:00 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 20:54:01 -0600
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 20:54:20 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected '='
+...( label_tag(:user_email, class="control-label") );@output_bu...
+...                               ^
+C:/dev/Precision_Web/app/views/static/contact.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+...email, class="control-label") );@output_buffer.safe_append='...
+...                               ^):
+  app/views/static/contact.html.erb:21: syntax error, unexpected '='
+  app/views/static/contact.html.erb:21: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:03:38 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:03:39 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:03:39 -0600
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 21:13:03 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:13:04 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:13:05 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:13:08 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:13:26 -0600
+Processing by StaticController#contact as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "user_email"=>"tysonvanburen@gmail.com", "in_regard_to"=>"Tyson Van Buren", "content"=>"Hello", "commit"=>"Send Contact"}
+Completed 500 Internal Server Error in 103ms
+
+NoMethodError (undefined method `contact_form' for NotificationMailer:Class):
+  app/controllers/static_controller.rb:7:in `contact'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+Processing by StaticController#contact as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "user_email"=>"tysonvanburen@gmail.com", "in_regard_to"=>"Tyson Van Buren", "content"=>"Hello", "commit"=>"Send Contact"}
+  Rendered static/contact.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:21 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:14:22 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:14:22 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 21:14:32 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:14:33 -0600
+
+
+Started GET "/promotional_offers" for 127.0.0.1 at 2014-09-07 21:14:35 -0600
+Processing by StaticController#promotional_offers as HTML
+  Rendered static/promotional_offers.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:14:37 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+Processing by StaticController#contact as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "user_email"=>"tysonvanburen444@gmail.com", "in_regard_to"=>"Tyson Van Buren", "content"=>"Hello\r\n", "commit"=>"Send Contact"}
+  Rendered static/contact.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:14:49 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:14:50 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:14:50 -0600
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:16:31 -0600
+
+ActionController::RoutingError (No route matches [POST] "/contact"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.5) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (47.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:17:53 -0600
+
+ActionController::RoutingError (No route matches [POST] "/contact"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.5) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 21:18:00 -0600
+
+ActionController::RoutingError (No route matches [POST] "/contact"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.5) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.5) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 21:18:04 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:18:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:18:05 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:18:07 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 21:18:09 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/promotional_offers" for 127.0.0.1 at 2014-09-07 21:18:10 -0600
+Processing by StaticController#promotional_offers as HTML
+  Rendered static/promotional_offers.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:18:12 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "user_email"=>"tysonvanburen444@gmail.com", "in_regard_to"=>"Tyson Van Buren", "content"=>"hello world\r\n!!", "commit"=>"Send Contact"}
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:18:25 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:18:47 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:18:48 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:28:43 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:28:44 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:30:00 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson ", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:30:49 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:30:50 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:30:50 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:49:18 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (5.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 293ms (Views: 274.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:49:19 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:49:20 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen444@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:49:44 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:49:45 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:50:50 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen444@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:50:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:50:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:50:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:50:51 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:50:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:50:51 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:50:51 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:50:51 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:51:22 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen444@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:51:23 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 21:55:12 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen444@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 61.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (93.0ms)
+Date: Sun, 07 Sep 2014 21:55:12 -0600
+From: tysonvanburen444@gmail.com
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d28a0c3ed7_118010308b474ba@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+  <p style=3D"text-align:center;">utf8 -- =E2=9C=93</p>
+  <p style=3D"text-align:center;">authenticity_token -- O9i0VpvI8srx9Xg7g=
+vqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+  <p style=3D"text-align:center;">first_name -- Tyson</p>
+  <p style=3D"text-align:center;">last_name -- Van Buren</p>
+  <p style=3D"text-align:center;">user_email -- tysonvanburen444@gmail.co=
+m</p>
+  <p style=3D"text-align:center;">phone -- 801-709-8920</p>
+  <p style=3D"text-align:center;">age -- 25</p>
+  <p style=3D"text-align:center;">school_name -- DevPoint Labs</p>
+  <p style=3D"text-align:center;">major -- Ruby on Rails</p>
+  <p style=3D"text-align:center;">commit -- Send Contact</p>
+  <p style=3D"text-align:center;">controller -- static</p>
+  <p style=3D"text-align:center;">action -- apply</p>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 165ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 21:55:12 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 21:55:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 21:55:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 21:55:13 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 21:56:17 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:04:50 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:04:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:04:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:04:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:04:51 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:04:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:04:51 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:04:51 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:04:51 -0600
+
+
+Started GET "/job_info" for 127.0.0.1 at 2014-09-07 22:04:55 -0600
+Processing by StaticController#job_info as HTML
+  Rendered static/job_info.html.erb within layouts/application (7.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/w1.jpg" for 127.0.0.1 at 2014-09-07 22:04:55 -0600
+
+
+Started GET "/assets/worker.jpg" for 127.0.0.1 at 2014-09-07 22:04:55 -0600
+
+
+Started GET "/assets/workers.jpg" for 127.0.0.1 at 2014-09-07 22:04:55 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 22:04:59 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 74ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:05:01 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:05:47 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 22:06:14 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"v", "user_email"=>"tysonvanburen@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (18.0ms)
+Date: Sun, 07 Sep 2014 22:06:14 -0600
+From: tysonvanburen@gmail.com
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d2b36dd87d_118010308b47588@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+  <p style=3D"text-align:center;">utf8 -- =E2=9C=93</p>
+  <p style=3D"text-align:center;">authenticity_token -- O9i0VpvI8srx9Xg7g=
+vqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+  <p style=3D"text-align:center;">first_name -- Tyson</p>
+  <p style=3D"text-align:center;">last_name -- v</p>
+  <p style=3D"text-align:center;">user_email -- tysonvanburen@gmail.com</=
+p>
+  <p style=3D"text-align:center;">phone -- 801-709-8920</p>
+  <p style=3D"text-align:center;">age -- 25</p>
+  <p style=3D"text-align:center;">school_name -- DevPoint Labs</p>
+  <p style=3D"text-align:center;">major -- Ruby on Rails</p>
+  <p style=3D"text-align:center;">commit -- Send Contact</p>
+  <p style=3D"text-align:center;">controller -- static</p>
+  <p style=3D"text-align:center;">action -- apply</p>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:06:15 -0600
+
+
+Started GET "/rails/mailers" for 127.0.0.1 at 2014-09-07 22:12:05 -0600
+Processing by Rails::MailersController#index as HTML
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer" for 127.0.0.1 at 2014-09-07 22:12:10 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer"}
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/mailer.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/contact_form" for 127.0.0.1 at 2014-09-07 22:12:13 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/contact_form"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `contact_form' for NotificationMailer:Class):
+  test/mailers/previews/notification_mailer_preview.rb:6:in `contact_form'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/contact_form" for 127.0.0.1 at 2014-09-07 22:12:54 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/contact_form"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `contact_form' for NotificationMailer:Class):
+  test/mailers/previews/notification_mailer_preview.rb:6:in `contact_form'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:15:30 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:18:06 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:18:07 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:18:08 -0600
+
+
+Started GET "/rails/mailers" for 127.0.0.1 at 2014-09-07 22:18:08 -0600
+Processing by Rails::MailersController#index as HTML
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:18:10 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 24.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 71ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:18:10 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 21ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:19:48 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 21ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:19:48 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 15.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:20:41 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 23.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 34ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:20:42 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:24:07 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 28.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 38ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:24:08 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:25:35 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 24.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 34ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:25:36 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 17.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 20ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:26:06 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 43.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (4.0ms)
+Completed 200 OK in 57ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:26:06 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 24.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 29ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:27:45 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 20.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 27ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:27:45 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (1.0ms)
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:30:09 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 17.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 24ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:30:09 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:31:25 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 18.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 25ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:31:25 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 30.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 34ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:32:42 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 27.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 37ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:32:42 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 26.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 32ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:33:46 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 15.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 22ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:33:46 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 30.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 35ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:35:00 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 26.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 35ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:35:01 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 25.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 30ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:35:22 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 18.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (2.0ms)
+Completed 200 OK in 26ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:35:22 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 28.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 32ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form" for 127.0.0.1 at 2014-09-07 22:35:39 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 15.0ms
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.5/lib/rails/templates/rails/mailers/email.html.erb (3.0ms)
+Completed 200 OK in 24ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/notification_mailer/apply_form?part=text%2Fhtml" for 127.0.0.1 at 2014-09-07 22:35:39 -0600
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"notification_mailer/apply_form"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 14.0ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 174ms (Views: 173.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:36:42 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:36:43 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:36:56 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 22:37:17 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"Tyson", "last_name"=>"Van Buren", "user_email"=>"tysonvanburen444@gmail.com", "phone"=>"801-709-8920", "age"=>"25", "school_name"=>"DevPoint Labs", "major"=>"Ruby on Rails", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 16.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (19.0ms)
+Date: Sun, 07 Sep 2014 22:37:17 -0600
+From: tysonvanburen444@gmail.com
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d327d84cb6_118010308b476c1@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+      <td>
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+      <h4>utf8</h4>
+
+      <p>=E2=9C=93</p>
+
+      <h4>authenticity_token</h4>
+
+      <p>O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+
+      <h4>first_name</h4>
+
+      <p>Tyson</p>
+
+      <h4>last_name</h4>
+
+      <p>Van Buren</p>
+
+      <h4>user_email</h4>
+
+      <p>tysonvanburen444@gmail.com</p>
+
+      <h4>phone</h4>
+
+      <p>801-709-8920</p>
+
+      <h4>age</h4>
+
+      <p>25</p>
+
+      <h4>school_name</h4>
+
+      <p>DevPoint Labs</p>
+
+      <h4>major</h4>
+
+      <p>Ruby on Rails</p>
+
+      <h4>commit</h4>
+
+      <p>Send Contact</p>
+
+      <h4>controller</h4>
+
+      <p>static</p>
+
+      <h4>action</h4>
+
+      <p>apply</p>
+
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 39ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:37:17 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:37:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:37:18 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:43:20 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:43:22 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:45:35 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (25.0ms)
+Completed 500 Internal Server Error in 30ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:101: syntax error, unexpected ',', expecting ')'
+...d=( submit_tag('Send Contact'), class="btn btn-success" );@o...
+...                               ^):
+  app/views/static/apply.html.erb:101: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:45:54 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 30ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:101: syntax error, unexpected ',', expecting ')'
+...d=( submit_tag('Send Contact'), :class => "btn btn-success" ...
+...                               ^):
+  app/views/static/apply.html.erb:101: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (6.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:47:55 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:47:56 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 22:48:02 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"", "last_name"=>"", "user_email"=>"", "phone"=>"", "age"=>"", "school_name"=>"", "major"=>"", "dagree"=>"", "gpa"=>"", "employer_name"=>"", "job_title"=>"", "start_date"=>"", "end_date"=>"", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 13.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (4.0ms)
+Date: Sun, 07 Sep 2014 22:48:02 -0600
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d3502e43b8_118010308b477aa@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+      <td>
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+      <h4>utf8</h4>
+
+      <p>=E2=9C=93</p>
+
+      <h4>authenticity_token</h4>
+
+      <p>O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+
+      <h4>first_name</h4>
+
+      <p></p>
+
+      <h4>last_name</h4>
+
+      <p></p>
+
+      <h4>user_email</h4>
+
+      <p></p>
+
+      <h4>phone</h4>
+
+      <p></p>
+
+      <h4>age</h4>
+
+      <p></p>
+
+      <h4>school_name</h4>
+
+      <p></p>
+
+      <h4>major</h4>
+
+      <p></p>
+
+      <h4>dagree</h4>
+
+      <p></p>
+
+      <h4>gpa</h4>
+
+      <p></p>
+
+      <h4>employer_name</h4>
+
+      <p></p>
+
+      <h4>job_title</h4>
+
+      <p></p>
+
+      <h4>start_date</h4>
+
+      <p></p>
+
+      <h4>end_date</h4>
+
+      <p></p>
+
+      <h4>commit</h4>
+
+      <p>Send Contact</p>
+
+      <h4>controller</h4>
+
+      <p>static</p>
+
+      <h4>action</h4>
+
+      <p>apply</p>
+
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 23ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:48:03 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:48:04 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:49:15 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (30.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:49:24 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:52:32 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 2722ms (Views: 2722.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:52:34 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:52:35 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:52:35 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:57:36 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:57:37 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (5.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:58:02 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:59:05 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 22:59:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 22:59:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 22:59:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 22:59:06 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 22:59:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 22:59:06 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 22:59:06 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 22:59:06 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 22:59:41 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:98: syntax error, unexpected ',', expecting ')'
+...nd=( text_field_tag (:end_date, placeholder: 'End Date') );@...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:98: syntax error, unexpected ')', expecting keyword_end
+...ate, placeholder: 'End Date') );@output_buffer.safe_append='
+...                               ^):
+  app/views/static/apply.html.erb:98: syntax error, unexpected ',', expecting ')'
+  app/views/static/apply.html.erb:98: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (89.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:03:20 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:98: syntax error, unexpected ',', expecting ')'
+...nd=( text_field_tag (:end_date, nil, :placeholder => 'End Da...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:98: Can't assign to nil
+...text_field_tag (:end_date, nil, :placeholder => 'End Date') ...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:98: syntax error, unexpected =>, expecting :: or '[' or '.'
+...:end_date, nil, :placeholder => 'End Date') );@output_buffer...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:98: syntax error, unexpected ')', expecting keyword_end
+..., :placeholder => 'End Date') );@output_buffer.safe_append='
+...                               ^):
+  app/views/static/apply.html.erb:98: syntax error, unexpected ',', expecting ')'
+  app/views/static/apply.html.erb:98: Can't assign to nil
+  app/views/static/apply.html.erb:98: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/static/apply.html.erb:98: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:03:49 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (4.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:03:50 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 23:04:10 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"", "last_name"=>"", "user_email"=>"", "phone"=>"", "age"=>"", "school_name"=>"", "major"=>"", "dagree"=>"", "gpa"=>"", "employer_name"=>"", "job_title"=>"", "start_date"=>"", "end_date"=>"0/12/22", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (1.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 29.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (4.0ms)
+Date: Sun, 07 Sep 2014 23:04:10 -0600
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d38caa0b0f_118010308b478f2@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+      <td>
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+      <h4>utf8</h4>
+
+      <p>=E2=9C=93</p>
+
+      <h4>authenticity_token</h4>
+
+      <p>O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+
+      <h4>first_name</h4>
+
+      <p></p>
+
+      <h4>last_name</h4>
+
+      <p></p>
+
+      <h4>user_email</h4>
+
+      <p></p>
+
+      <h4>phone</h4>
+
+      <p></p>
+
+      <h4>age</h4>
+
+      <p></p>
+
+      <h4>school_name</h4>
+
+      <p></p>
+
+      <h4>major</h4>
+
+      <p></p>
+
+      <h4>dagree</h4>
+
+      <p></p>
+
+      <h4>gpa</h4>
+
+      <p></p>
+
+      <h4>employer_name</h4>
+
+      <p></p>
+
+      <h4>job_title</h4>
+
+      <p></p>
+
+      <h4>start_date</h4>
+
+      <p></p>
+
+      <h4>end_date</h4>
+
+      <p>0/12/22</p>
+
+      <h4>commit</h4>
+
+      <p>Send Contact</p>
+
+      <h4>controller</h4>
+
+      <p>static</p>
+
+      <h4>action</h4>
+
+      <p>apply</p>
+
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 23:04:10 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 404ms (Views: 403.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:04:11 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:04:12 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:15:00 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 14ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting ')'
+...tag :phone, nil, :placeholder 'Phone' );@output_buffer.safe_...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d_tag :age, nil, :placeholder 'Age' );@output_buffer.safe_ap...
+...                               ^):
+  app/views/static/apply.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/apply.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:15:00 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/apply.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting ')'
+...tag :phone, nil, :placeholder 'Phone' );@output_buffer.safe_...
+...                               ^
+C:/dev/Precision_Web/app/views/static/apply.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d_tag :age, nil, :placeholder 'Age' );@output_buffer.safe_ap...
+...                               ^):
+  app/views/static/apply.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/apply.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:15:53 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:15:54 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:16:51 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:16:52 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:16:55 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (5.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:16:56 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:17:52 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:17:53 -0600
+
+
+Started POST "/apply" for 127.0.0.1 at 2014-09-07 23:17:54 -0600
+Processing by StaticController#apply as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "first_name"=>"", "last_name"=>"", "user_email"=>"", "phone"=>"", "age"=>"", "school_name"=>"", "major"=>"", "dagree"=>"", "gpa"=>"", "employer_name"=>"", "job_title"=>"", "start_date"=>"", "end_date"=>"", "commit"=>"Send Contact"}
+  Rendered notification_mailer/apply_form.html.erb (0.0ms)
+
+NotificationMailer#apply_form: processed outbound mail in 18.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (3.0ms)
+Date: Sun, 07 Sep 2014 23:17:54 -0600
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d3c02c78b2_118010308b479a0@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+      <td>
+<h1 style=3D"font-weight:normal;color:blue;">Application Request</h1>
+      <h4>utf8</h4>
+
+      <p>=E2=9C=93</p>
+
+      <h4>authenticity_token</h4>
+
+      <p>O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+
+      <h4>first_name</h4>
+
+      <p></p>
+
+      <h4>last_name</h4>
+
+      <p></p>
+
+      <h4>user_email</h4>
+
+      <p></p>
+
+      <h4>phone</h4>
+
+      <p></p>
+
+      <h4>age</h4>
+
+      <p></p>
+
+      <h4>school_name</h4>
+
+      <p></p>
+
+      <h4>major</h4>
+
+      <p></p>
+
+      <h4>dagree</h4>
+
+      <p></p>
+
+      <h4>gpa</h4>
+
+      <p></p>
+
+      <h4>employer_name</h4>
+
+      <p></p>
+
+      <h4>job_title</h4>
+
+      <p></p>
+
+      <h4>start_date</h4>
+
+      <p></p>
+
+      <h4>end_date</h4>
+
+      <p></p>
+
+      <h4>commit</h4>
+
+      <p>Send Contact</p>
+
+      <h4>controller</h4>
+
+      <p>static</p>
+
+      <h4>action</h4>
+
+      <p>apply</p>
+
+
+Redirected to http://localhost:3000/test
+Completed 302 Found in 323ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:17:55 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:17:56 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:37:57 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    1: <% form_tag(test_path) do %>
+    2:   <h4 class="test">1. To keep your house warm, what is the most efficient size of furnace to heat your home?:</h4>
+    3:     <p><%= radio_button_tag  name: 'To keep your house warm, what is the most efficient size of furnace to heat your home?', value: '80,000BTU/hr' %></p>
+    4: <% end %>
+    5: <!--
+    6:     <!-- <div class="test">
+  app/views/static/test.html.erb:3:in `block in _app_views_static_test_html_erb___786858624_39859836'
+  app/views/static/test.html.erb:1:in `_app_views_static_test_html_erb___786858624_39859836'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:43:05 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:43:06 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:43:38 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:43:52 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:43:53 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:44:09 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:45:01 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/test.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+...pend=( radio_button_tag :name '1. To keep your house warm, w...
+...                               ^):
+  app/views/static/test.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:45:22 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    1: <% form_tag(test_path) do %>
+    2:   <h4 class="test">1. To keep your house warm, what is the most efficient size of furnace to heat your home?:</h4>
+    3:     <p><%= radio_button_tag :name => '1. To keep your house warm, what is the most efficient size of furnace to heat your home?'  %></p>
+    4: <% end %>
+    5: 
+    6:     <!-- <div class="test">
+  app/views/static/test.html.erb:3:in `block in _app_views_static_test_html_erb___786858624_29862420'
+  app/views/static/test.html.erb:1:in `_app_views_static_test_html_erb___786858624_29862420'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:48:43 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `role_id' for nil:NilClass):
+    1: <% form_tag(test_path) do %>
+    2:   <h4 class="test">1. To keep your house warm, what is the most efficient size of furnace to heat your home?:</h4>
+    3:     <%= radio_button_tag 'permission[role_id]', '2', !!(@permission.role_id.nil? || @permission.role_id == 2) %>
+    4: <% end %>
+    5: 
+    6:     <!-- <div class="test">
+  app/views/static/test.html.erb:3:in `block in _app_views_static_test_html_erb___786858624_29835324'
+  app/views/static/test.html.erb:1:in `_app_views_static_test_html_erb___786858624_29835324'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:54:34 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    1: <% form_tag(test_path) do %>
+    2:   <h4 class="test">1. To keep your house warm, what is the most efficient size of furnace to heat your home?:</h4>
+    3:     <%= radio_button_tag :name => 'Hello' %>
+    4: <% end %>
+    5: 
+    6:     <!-- <div class="test">
+  app/views/static/test.html.erb:3:in `block in _app_views_static_test_html_erb___786858624_29866536'
+  app/views/static/test.html.erb:1:in `_app_views_static_test_html_erb___786858624_29866536'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:58:44 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:58:45 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:58:47 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:58:59 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-07 23:59:11 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 23:59:12 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:11:12 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (C:/dev/Precision_Web/app/views/static/test.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...o keep your house warm, what is the most efficient size of f...
+...                               ^
+C:/dev/Precision_Web/app/views/static/test.html.erb:2: syntax error, unexpected ')', expecting keyword_end
+...f furnace to heat your home?) );@output_buffer.safe_append='
+...                               ^):
+  app/views/static/test.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/static/test.html.erb:2: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (4.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-08 00:13:59 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-08 00:14:00 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:14:05 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (4.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-08 00:18:15 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-08 00:18:16 -0600
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:23:59 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (4.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 381ms (Views: 341.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-08 00:24:01 -0600
+
+
+Started GET "/apply" for 127.0.0.1 at 2014-09-08 00:26:26 -0600
+Processing by StaticController#apply as HTML
+  Rendered static/apply.html.erb within layouts/application (2.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2014-09-08 00:26:32 -0600
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/promotional_offers" for 127.0.0.1 at 2014-09-08 00:26:34 -0600
+Processing by StaticController#promotional_offers as HTML
+  Rendered static/promotional_offers.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-08 00:26:36 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 00:26:37 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
