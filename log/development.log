@@ -76459,3 +76459,113 @@ Processing by StaticController#promotional_offers as HTML
   Rendered static/promotional_offers.html.erb within layouts/application (1.0ms)
   Rendered static/_navbar.html.erb (1.0ms)
 Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/promotional_offers" for 127.0.0.1 at 2014-09-07 19:30:46 -0600
+Processing by StaticController#promotional_offers as HTML
+  Rendered static/promotional_offers.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 414ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 19:30:49 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 19:30:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 19:30:51 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (1.0ms)
+Completed 200 OK in 63ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-07 19:30:52 -0600
+Processing by StaticController#contact as HTML
+  Rendered static/contact.html.erb within layouts/application (3.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2014-09-07 19:31:04 -0600
+Processing by StaticController#contact as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9i0VpvI8srx9Xg7gvqdJj2vxufyl1icuRpUp8H6CGg=", "user_email"=>"tysonvanburen444@gmail.com", "in_regard_to"=>"Tyson Van Buren", "content"=>"hello", "commit"=>"Send Contact"}
+  Rendered notification_mailer/contact_form.html.erb (1.0ms)
+
+NotificationMailer#contact_form: processed outbound mail in 87.0ms
+
+Sent mail to tysonvanburen4444@gmail.com (2090.1ms)
+Date: Sun, 07 Sep 2014 19:31:04 -0600
+From: tysonvanburen444@gmail.com
+To: tysonvanburen4444@gmail.com
+Message-ID: <540d06d8a2142_1b8c10708b072856@kiefer-laptop.mail>
+Subject: You have a new contact request
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1 style=3D"font-weight:normal;color:blue;">Contact Request</h1>
+  <p style=3D"text-align:center;">utf8 -- =E2=9C=93</p>
+  <p style=3D"text-align:center;">authenticity_token -- O9i0VpvI8srx9Xg7g=
+vqdJj2vxufyl1icuRpUp8H6CGg=3D</p>
+  <p style=3D"text-align:center;">user_email -- tysonvanburen444@gmail.co=
+m</p>
+  <p style=3D"text-align:center;">in_regard_to -- Tyson Van Buren</p>
+  <p style=3D"text-align:center;">content -- hello</p>
+  <p style=3D"text-align:center;">commit -- Send Contact</p>
+  <p style=3D"text-align:center;">controller -- static</p>
+  <p style=3D"text-align:center;">action -- contact</p>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2189ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered static/_navbar.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/precision_top_bar_picture.jpg" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
+
+
+Started GET "/assets/background_img.jpg" for 127.0.0.1 at 2014-09-07 19:31:07 -0600
